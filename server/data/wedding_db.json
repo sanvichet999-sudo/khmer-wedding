@@ -1,0 +1,304 @@
+{
+  "wedding": {
+    "id": "wedding-01",
+    "coupleNameKhmer": "សុខ វិចិត្រ & ជា ចរិយា",
+    "coupleNameEnglish": "Sok Vichet & Chea Chariya",
+    "groomNameKhmer": "សុខ វិចិត្រ",
+    "groomNameEnglish": "Sok Vichet",
+    "groomParentsKhmer": "លោក សុខ ចិន្តា និង លោកស្រី អ៊ុំ សោភា",
+    "groomParentsEnglish": "Mr. Sok Chenda & Mrs. Oum Sophea",
+    "brideNameKhmer": "ជា ចរិយា",
+    "brideNameEnglish": "Chea Chariya",
+    "brideParentsKhmer": "លោក ជា ប៊ុនថន និង លោកស្រី ម៉ី វណ្ណា",
+    "brideParentsEnglish": "Mr. Chea Bunthorn & Mrs. Mey Vanna",
+    "weddingDate": "2026-11-15T17:00:00+07:00",
+    "weddingDateKhmer": "ថ្ងៃអាទិត្យ ទី១៥ ខែវិច្ឆិកា ឆ្នាំ២០២៦",
+    "lunarDateKhmer": "ត្រូវនឹង ថ្ងៃ ៧ កើត ខែកត្តិក ឆ្នាំមមី អដ្ឋស័ក ព.ស. ២៥៧០",
+    "weddingTimeKhmer": "វេលាម៉ោង ០៥:០០ នាទីល្ងាច",
+    "weddingTimeEnglish": "From 5:00 PM onwards",
+    "venueNameKhmer": "មជ្ឈមណ្ឌលសន្និបាត និងពិព័រណ៍កោះពេជ្រ (អគារ G)",
+    "venueNameEnglish": "Koh Pich Exhibition & Convention Center (Building G)",
+    "hallKhmer": "សាលមង្គល អគារ G (Diamond Island Grand Ballroom G)",
+    "addressKhmer": "ផ្លូវកោះពេជ្រ សង្កាត់ទន្លេបាសាក់ ខណ្ឌចំការមន រាជធានីភ្នំពេញ",
+    "addressEnglish": "Koh Pich St., Sangkat Tonle Bassac, Khan Chamkarmon, Phnom Penh, Cambodia",
+    "googleMapsUrl": "https://maps.google.com/?q=Koh+Pich+Convention+Center+Phnom+Penh",
+    "appleMapsUrl": "https://maps.apple.com/?q=Koh+Pich+Convention+Center+Phnom+Penh",
+    "parkingInfoKhmer": "មានចំណតរថយន្ត និងទោចក្រយានយន្តយ៉ាងធំទូលាយ ព្រមទាំងមានបុគ្គលិកជួយសម្រួលការចតដោយឥតគិតថ្លៃ។",
+    "closingMessageKhmer": "យើងខ្ញុំទាំងពីរនាក់ ព្រមទាំងមាតាបិតាទាំងសងខាង សូមថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅបំផុត ចំពោះវត្តមានដ៏ឧត្តុង្គឧត្តម និងសមានចិត្តដ៏ថ្លៃថ្លារបស់លោកអ្នក។",
+    "heroImage": "/src/assets/images/hero_khmer_wedding_1791004183585.jpg",
+    "banquetImage": "/src/assets/images/wedding_dinner_banquet_1791004202568.jpg",
+    "coupleImage": "/src/assets/images/khmer_prewedding_couple_1791004216374.jpg",
+    "venueImage": "/src/assets/images/wedding_venue_exterior_1791004229963.jpg",
+    "updatedAt": "2026-10-03T05:38:26.694Z"
+  },
+  "guests": [
+    {
+      "id": "guest-1",
+      "weddingId": "wedding-01",
+      "fullName": "ឯកឧត្តម និងលោកជំទាវ ហួត សុភ័ក្រ",
+      "phone": "012 345 678",
+      "email": "huot.sopheak@example.com",
+      "group": "ភ្ញៀវកិត្តិយស (VIP)",
+      "allowedGuests": 2,
+      "invitationToken": "khw-vip01",
+      "invitationStatus": "opened",
+      "attendanceStatus": "confirmed",
+      "openedAt": "2026-10-02T10:15:00.000Z",
+      "createdAt": "2026-10-01T08:00:00.000Z",
+      "updatedAt": "2026-10-02T10:20:00.000Z"
+    },
+    {
+      "id": "guest-2",
+      "weddingId": "wedding-01",
+      "fullName": "លោកពូ សេង លាង និងអ្នកមីង",
+      "phone": "017 999 888",
+      "group": "សាច់ញាតិខាងកូនប្រុស",
+      "allowedGuests": 3,
+      "invitationToken": "khw-rel02",
+      "invitationStatus": "opened",
+      "attendanceStatus": "confirmed",
+      "openedAt": "2026-10-02T11:00:00.000Z",
+      "createdAt": "2026-10-01T08:00:00.000Z",
+      "updatedAt": "2026-10-02T11:05:00.000Z"
+    },
+    {
+      "id": "guest-3",
+      "weddingId": "wedding-01",
+      "fullName": "បងស្រី រ័ត្ន ធីតា និងស្វាមី",
+      "phone": "098 777 666",
+      "email": "thida.rath@example.com",
+      "group": "សាច់ញាតិខាងកូនស្រី",
+      "allowedGuests": 2,
+      "invitationToken": "khw-rel03",
+      "invitationStatus": "sent",
+      "attendanceStatus": "not_responded",
+      "createdAt": "2026-10-01T08:00:00.000Z",
+      "updatedAt": "2026-10-01T08:00:00.000Z"
+    },
+    {
+      "id": "guest-4",
+      "weddingId": "wedding-01",
+      "fullName": "លោក តារា និងក្រុមគ្រួសារ",
+      "phone": "085 222 333",
+      "group": "មិត្តភក្តិជិតស្និទ្ធ",
+      "allowedGuests": 3,
+      "invitationToken": "khw-dara04",
+      "invitationStatus": "opened",
+      "attendanceStatus": "maybe",
+      "openedAt": "2026-10-02T14:30:00.000Z",
+      "createdAt": "2026-10-01T08:00:00.000Z",
+      "updatedAt": "2026-10-02T14:35:00.000Z"
+    },
+    {
+      "id": "guest-5",
+      "weddingId": "wedding-01",
+      "fullName": "លោក វ៉ាន់ សុខា",
+      "phone": "093 111 222",
+      "group": "សហការីការងារ",
+      "allowedGuests": 1,
+      "invitationToken": "khw-sokha05",
+      "invitationStatus": "sent",
+      "attendanceStatus": "declined",
+      "createdAt": "2026-10-01T08:00:00.000Z",
+      "updatedAt": "2026-10-02T09:00:00.000Z"
+    },
+    {
+      "id": "guest-1791005915064-487",
+      "weddingId": "wedding-01",
+      "fullName": "ឯកឧត្តម ច័ន្ទ មុនី",
+      "phone": "012999111",
+      "email": "",
+      "group": "ភ្ញៀវកិត្តិយស (VIP)",
+      "allowedGuests": 3,
+      "invitationToken": "khw-63wsu8",
+      "invitationStatus": "opened",
+      "attendanceStatus": "confirmed",
+      "createdAt": "2026-10-03T05:38:35.064Z",
+      "updatedAt": "2026-10-03T05:38:42.377Z",
+      "openedAt": "2026-10-03T05:38:38.531Z"
+    }
+  ],
+  "rsvps": [
+    {
+      "id": "rsvp-1",
+      "guestId": "guest-1",
+      "guestName": "ឯកឧត្តម និងលោកជំទាវ ហួត សុភ័ក្រ",
+      "response": "yes",
+      "guestCount": 2,
+      "additionalGuestNames": "លោកជំទាវ ហួត សុភ័ក្រ",
+      "dietaryPreference": "standard",
+      "phoneOrTelegram": "012 345 678",
+      "message": "រីករាយថ្ងៃមង្គលការក្មួយទាំងពីរ! ជូនពរឱ្យមានសុភមង្គលពេញមួយជីវិត!",
+      "submittedAt": "2026-10-02T10:20:00.000Z"
+    },
+    {
+      "id": "rsvp-2",
+      "guestId": "guest-2",
+      "guestName": "លោកពូ សេង លាង និងអ្នកមីង",
+      "response": "yes",
+      "guestCount": 3,
+      "additionalGuestNames": "អ្នកមីង និងកូនស្រី",
+      "dietaryPreference": "standard",
+      "phoneOrTelegram": "017 999 888",
+      "message": "ពូ និងមីង នឹងទៅចូលរួមឱ្យបានទាន់ពេលវេលា។ ជូនពរក្មួយទាំងពីរត្រជាក់ត្រជុំ!",
+      "submittedAt": "2026-10-02T11:05:00.000Z"
+    },
+    {
+      "id": "rsvp-3",
+      "guestId": "guest-5",
+      "guestName": "លោក វ៉ាន់ សុខា",
+      "response": "no",
+      "guestCount": 0,
+      "dietaryPreference": "none",
+      "phoneOrTelegram": "093 111 222",
+      "message": "សូមអភ័យទោសផង ខ្ញុំមានបេសកកម្មនៅខេត្ត មិនអាចចូលរួមបានទេ តែសូមជូនពរឱ្យគូស្វាមីភរិយាថ្មីមានសុភមង្គល!",
+      "submittedAt": "2026-10-02T09:00:00.000Z"
+    },
+    {
+      "id": "rsvp-1791005922377",
+      "guestId": "guest-1791005915064-487",
+      "guestName": "ឯកឧត្តម ច័ន្ទ មុនី",
+      "response": "yes",
+      "guestCount": 3,
+      "additionalGuestNames": "លោកជំទាវ និងបុត្រី",
+      "dietaryPreference": "standard",
+      "phoneOrTelegram": "012999111",
+      "message": "សូមអបអរសាទរ និងជូនពរក្មួយទាំងពីរ!",
+      "submittedAt": "2026-10-03T05:38:42.377Z"
+    }
+  ],
+  "template": {
+    "id": "tmpl-01",
+    "weddingId": "wedding-01",
+    "theme": {
+      "accentColor": "#D4AF37",
+      "primaryFont": "Kantumruy Pro",
+      "displayFont": "Moul",
+      "cardBg": "#141210",
+      "goldGlow": true
+    },
+    "sections": [
+      {
+        "id": "sec-hero",
+        "type": "hero",
+        "titleKhmer": "ទំព័រដើម & ស្វាគមន៍",
+        "enabled": true,
+        "sortOrder": 1
+      },
+      {
+        "id": "sec-couple",
+        "type": "couple",
+        "titleKhmer": "ព័ត៌មានកូនកំលោះ-កូនក្រមុំ",
+        "enabled": true,
+        "sortOrder": 2
+      },
+      {
+        "id": "sec-schedule",
+        "type": "schedule",
+        "titleKhmer": "ពេលវេលា និងកម្មវិធីលម្អិត",
+        "enabled": true,
+        "sortOrder": 3
+      },
+      {
+        "id": "sec-venue",
+        "type": "venue",
+        "titleKhmer": "ទីតាំងជាក់លាក់ & ផែនទី",
+        "enabled": true,
+        "sortOrder": 4
+      },
+      {
+        "id": "sec-gallery",
+        "type": "gallery",
+        "titleKhmer": "កម្រងរូបភាពអនុស្សាវរីយ៍",
+        "enabled": true,
+        "sortOrder": 5
+      },
+      {
+        "id": "sec-dressCode",
+        "type": "dressCode",
+        "titleKhmer": "ពណ៌សម្លៀកបំពាក់កិត្តិយស",
+        "enabled": true,
+        "sortOrder": 6
+      },
+      {
+        "id": "sec-rsvp",
+        "type": "rsvp",
+        "titleKhmer": "ឆ្លើយតបការចូលរួម (RSVP)",
+        "enabled": true,
+        "sortOrder": 7
+      },
+      {
+        "id": "sec-guestbook",
+        "type": "guestbook",
+        "titleKhmer": "សៀវភៅជូនពរឌីជីថល",
+        "enabled": true,
+        "sortOrder": 8
+      },
+      {
+        "id": "sec-gift",
+        "type": "gift",
+        "titleKhmer": "កាដូ & ចំណងដៃមង្គលការ",
+        "enabled": true,
+        "sortOrder": 9
+      },
+      {
+        "id": "sec-closing",
+        "type": "closing",
+        "titleKhmer": "សារថ្លែងអំណរគុណចុងក្រោយ",
+        "enabled": true,
+        "sortOrder": 10
+      }
+    ],
+    "updatedAt": "2026-10-03T05:38:26.695Z"
+  },
+  "paymentMethods": [
+    {
+      "id": "pay-1",
+      "weddingId": "wedding-01",
+      "providerName": "ABA Bank",
+      "accountName": "SOK VICHET & CHEA CHARIYA",
+      "accountNumber": "001 888 999",
+      "currency": "USD",
+      "qrImage": "",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "pay-2",
+      "weddingId": "wedding-01",
+      "providerName": "ACLEDA Bank",
+      "accountName": "SOK VICHET",
+      "accountNumber": "010-888-777-66",
+      "currency": "KHR",
+      "qrImage": "",
+      "enabled": true,
+      "order": 2
+    }
+  ],
+  "wishes": [
+    {
+      "id": "w_1791005922377",
+      "guestName": "ឯកឧត្តម ច័ន្ទ មុនី",
+      "message": "សូមអបអរសាទរ និងជូនពរក្មួយទាំងពីរ!",
+      "relationship": "ភ្ញៀវកិត្តិយស (VIP)",
+      "timestamp": "ទើបតែសរសេរ",
+      "likes": 1
+    },
+    {
+      "id": "w1",
+      "guestName": "ឯកឧត្តម និងលោកជំទាវ ហួត សុភ័ក្រ",
+      "message": "សូមប្រសិទ្ធពរជ័យ សិរីសួស្តី ជ័យមង្គល វិបុលសុខ មហាប្រសើរ ជូនដល់ក្មួយទាំងពីរ ស្រឡាញ់គ្នារហូតដល់ចាស់កោងខ្នង រកស៊ីមានបាន ត្រជាក់ត្រជុំដូចទឹកអង្គរ!",
+      "relationship": "ភ្ញៀវកិត្តិយស (VIP)",
+      "timestamp": "២ ម៉ោងមុន",
+      "likes": 18
+    },
+    {
+      "id": "w2",
+      "guestName": "បងស្រី រ័ត្ន ធីតា និងស្វាមី",
+      "message": "រីករាយថ្ងៃមង្គលការប្អូនទាំងពីរ! សូមឱ្យជីវិតគូថ្មីនេះពោរពេញដោយស្នាមញញឹម ក្តីស្រឡាញ់ ការយល់ចិត្ត និងសុភមង្គលគ្រប់ពេលវេលា។",
+      "relationship": "សាច់ញាតិខាងកូនស្រី",
+      "timestamp": "៥ ម៉ោងមុន",
+      "likes": 12
+    }
+  ]
+}

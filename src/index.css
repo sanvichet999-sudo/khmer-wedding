@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-kantumruy: 'Kantumruy Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-moul: 'Moul', serif;
+    --font-battambang: 'Battambang', cursive, sans-serif;
+    --font-cinzel: 'Cinzel', serif;
+    --font-playfair: 'Playfair Display', serif;
+  }
+
+  body {
+    font-family: var(--font-kantumruy);
+    background-color: #0c0b0a;
+    color: #f7f3ed;
+    overflow-x: hidden;
+  }
+}
+
+.font-moul {
+  font-family: var(--font-moul);
+}
+
+.font-kantumruy {
+  font-family: var(--font-kantumruy);
+}
+
+.font-battambang {
+  font-family: var(--font-battambang);
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+/* Gold Text and Border Treatments */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fae0a2 0%, #dfb461 45%, #fbe8b8 70%, #b88628 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-rose-gold-gradient {
+  background: linear-gradient(135deg, #fed7aa 0%, #fb7185 50%, #f43f5e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-glow {
+  border-color: rgba(223, 180, 97, 0.35);
+  box-shadow: 0 0 25px -5px rgba(223, 180, 97, 0.15);
+}
+
+.bg-radial-luxury {
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(184, 134, 40, 0.18), transparent 70%);
+}
+
+.bg-radial-card {
+  background: radial-gradient(circle at top right, rgba(223, 180, 97, 0.08), transparent 60%), #141210;
+}
+
+/* Subtle gold shimmer */
+@keyframes goldShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(250, 224, 162, 0.25) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: goldShimmer 3s infinite;
+}
